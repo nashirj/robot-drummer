@@ -21,3 +21,9 @@ One of the first steps for the baseline idea is to identify a representative lan
 - the set of distinct sounds you can make with a drumset is close to infinite
 - want to identify the smallest set of sounds that represents the base language of a jazz drummer
 - then need to figure out how to build electromechanical system that can create these sounds on the drums
+
+# References
+https://www.youtube.com/watch?v=5rwhbBKfXnY
+https://polyend.com/perc-drumming-machine/
+https://www.instructables.com/Arduino-Controlled-Robotic-Drum/
+https://www.instructables.com/Arduino-Drum-Man/
