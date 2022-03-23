@@ -25,10 +25,23 @@ One of the first steps for the baseline idea is to identify a representative lan
 Could "learn" songs through listening to it one time and build a "model" of the song that can then be played/improvised over
 
 Very first version of project would be 
-`computer -> midi -> program I write -> actuation signal -> microcontroller -> motor`
+
+`computer -> midi out (drums) -> midi_to_actuation -> actuation signal -> microcontroller -> motor`
+
+After the above pipeline works, could update pipeline to do
+
+`live audio -> mic -> computer -> audio_to_midi -> midi in (solo) -> neural network -> midi out (drums) -> midi_to_actuation -> actuation signal -> microcontroller -> motor`
+
+[sample audio to midi converter](https://bedroomproducersblog.com/2021/10/25/dodo-audio-midi-converter/)
+
+Can maybe use [max msp](https://cycling74.com/products/max). Student license [costs $250](https://cycling74.com/shop)
+[Sending and receiving midi with max](https://maker.pro/arduino/tutorial/how-to-send-and-receive-data-between-an-arduino-and-maxmsp)
+
+Could consider reaching out to [Amy Hoover](http://amykhoover.com/publications/) for additional advising. Could also reach out to [Kenneth Stanley](https://www.cs.ucf.edu/~kstanley/), who currently works at OpenAI, who advised Amy on her work.
 
 # References
 https://www.youtube.com/watch?v=5rwhbBKfXnY
 https://polyend.com/perc-drumming-machine/
 https://www.instructables.com/Arduino-Controlled-Robotic-Drum/
 https://www.instructables.com/Arduino-Drum-Man/
+http://eplex.cs.ucf.edu/papers/hoover_evomusart08.pdf
