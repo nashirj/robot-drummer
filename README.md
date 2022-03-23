@@ -32,6 +32,8 @@ After the above pipeline works, could update pipeline to do
 
 `live audio -> mic -> computer -> audio_to_midi -> midi in (solo) -> neural network -> midi out (drums) -> midi_to_actuation -> actuation signal -> microcontroller -> motor`
 
+the output of the drum comping is a function of both drummer style and the current music going on. so first maybe we need to learn a model of a drummer, and only then can we learn how to respond to musical input (e.g. soloing/bass/piano comping)
+
 [sample audio to midi converter](https://bedroomproducersblog.com/2021/10/25/dodo-audio-midi-converter/)
 
 Can maybe use [max msp](https://cycling74.com/products/max). Student license [costs $250](https://cycling74.com/shop)
