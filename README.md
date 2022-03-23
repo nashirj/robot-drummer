@@ -22,6 +22,11 @@ One of the first steps for the baseline idea is to identify a representative lan
 - want to identify the smallest set of sounds that represents the base language of a jazz drummer
 - then need to figure out how to build electromechanical system that can create these sounds on the drums
 
+Could "learn" songs through listening to it one time and build a "model" of the song that can then be played/improvised over
+
+Very first version of project would be 
+`computer -> midi -> program I write -> actuation signal -> microcontroller -> motor`
+
 # References
 https://www.youtube.com/watch?v=5rwhbBKfXnY
 https://polyend.com/perc-drumming-machine/
